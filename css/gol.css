@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+
+#buttonBar {
+  margin-bottom: 8px;
+}
+
+#buttonBar > button {
+  display: inline-block;
+}
