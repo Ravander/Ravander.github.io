@@ -1,0 +1,77 @@
+:root {
+  --nord-0: #2e3440;
+  --nord-1: #3b4252;
+  --nord-2: #434c5e;
+  --nord-3: #4c566a;
+  --nord-4: #d8dee9;
+  --nord-5: #e5e9f0;
+  --nord-6: #eceff4;
+  --nord-7: #8fbcbb;
+  --nord-8: #88c0d0;
+  --nord-9: #81a1c1;
+  --nord-10: #5e81ac;
+  --nord-11: #bf616a;
+  --nord-12: #d08770;
+  --nord-13: #ebcb8b;
+  --nord-14: #a3be8c;
+  --nord-15: #b48ead;
+
+  --background-color: var(--nord-0);
+  --text-color: var(--nord-4);
+  --text-active-color: var(--nord-6);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  margin: 32px 0 16px 0;
+}
+
+a,
+a:visited {
+  color: var(--text-color);
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.1s all;
+}
+
+a:hover {
+  color: var(--text-active-color);
+}
+
+a:focus {
+  outline: 2px solid var(--text-active-color);
+  color: var(--text-active-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: var(--nord-4);
+    --text-color: var(--nord-0);
+    --text-active-color: var(--nord-3);
+  }
+}
