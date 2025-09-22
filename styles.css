@@ -40,23 +40,30 @@ body {
   text-align: center;
 }
 
+main {
+  height: 100%;
+  padding: 16px;
+}
+
 img {
   border: 2px solid var(--text-color);
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  max-width: min(200px, 50vh);
 }
 
 h1 {
-  margin: 32px 0 16px 0;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  margin: 16px 0;
 }
 
 a,
 a:visited {
+  font-size: 1rem;
   color: var(--text-color);
   padding: 8px;
   border-radius: 4px;
-  transition: 0.1s all;
+  transition: color 0.1s;
 }
 
 a:hover {
