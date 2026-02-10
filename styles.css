@@ -49,6 +49,12 @@ img {
   border-radius: 50%;
   width: 100%;
   max-width: min(200px, 50vh);
+  filter: grayscale(100);
+  transition: all 1s;
+}
+
+img:hover {
+  filter: none;
 }
 
 h1 {
@@ -61,8 +67,9 @@ a:visited {
   font-size: 1rem;
   color: var(--text-color);
   padding: 8px;
-  border-radius: 4px;
-  transition: color 0.1s;
+  border-radius: 12px;
+  outline-offset: -2px;
+  transition: all 0.1s;
 }
 
 a:hover {
@@ -71,6 +78,8 @@ a:hover {
 
 a:focus {
   outline: 2px solid var(--text-active-color);
+  outline-offset: 0;
+  text-decoration: none;
   color: var(--text-active-color);
 }
 
