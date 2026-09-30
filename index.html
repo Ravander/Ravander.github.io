@@ -3,6 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Tuomas Ravander is a software consultant based in Helsinki, Finland. Find him on LinkedIn and GitHub."
+    />
+    <link rel="canonical" href="https://ravander.fi/" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://ravander.fi/" />
+    <meta property="og:title" content="Tuomas Ravander — Software Consultant" />
+    <meta
+      property="og:description"
+      content="Tuomas Ravander is a software consultant based in Helsinki, Finland. Find him on LinkedIn and GitHub."
+    />
+    <meta property="og:image" content="https://ravander.fi/img/profile.jpg" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="profile:first_name" content="Tuomas" />
+    <meta property="profile:last_name" content="Ravander" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Tuomas Ravander — Software Consultant" />
+    <meta
+      name="twitter:description"
+      content="Tuomas Ravander is a software consultant based in Helsinki, Finland. Find him on LinkedIn and GitHub."
+    />
+    <meta name="twitter:image" content="https://ravander.fi/img/profile.jpg" />
+
+    <link rel="icon" href="./img/profile.jpg" type="image/jpeg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,12 +40,37 @@
     />
     <link rel="stylesheet" href="styles.css" />
 
-    <title>Tuomas Ravander</title>
+    <title>Tuomas Ravander — Software Consultant</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tuomas Ravander",
+        "url": "https://ravander.fi/",
+        "image": "https://ravander.fi/img/profile.jpg",
+        "jobTitle": "Software Consultant",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Columbia Road"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Helsinki",
+          "addressCountry": "FI"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/tuomasravander/",
+          "https://github.com/Ravander"
+        ]
+      }
+    </script>
   </head>
   <body>
     <main>
       <img src="./img/profile.jpg" alt="Tuomas Ravander's profile picture" />
       <h1>Tuomas Ravander</h1>
+      <p class="bio">Software consultant based in Helsinki.</p>
       <a href="https://www.linkedin.com/in/tuomasravander/" target="_blank"
         >LinkedIn</a
       >

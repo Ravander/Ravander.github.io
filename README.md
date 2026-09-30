@@ -1,3 +1,3 @@
-# Ravander personal webpage
+# Tuomas Ravander personal homepage
 
-www.ravander.fi
+https://ravander.fi
